@@ -1,6 +1,6 @@
 package com.sparta;
 
-public class CheckPalindrome {
+public class PalindromeChecker {
     public static boolean isPalindrom(String word){
         boolean condition=true;
         int totalChar=word.length();
