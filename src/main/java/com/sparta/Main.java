@@ -7,7 +7,7 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args){
         System.out.println("Start program");
-//        ArrayList<String> theList=LongestPalindrome.find("");
+        ArrayList<String> theList=LongestPalindrome.find("wew");
 //        System.out.println("new ArrayList<String>() type: "+new ArrayList<String>().getClass().getSimpleName());
 //        System.out.println("new ArrayList<String>() value: "+new ArrayList<String>());
 //

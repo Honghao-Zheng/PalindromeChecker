@@ -16,11 +16,8 @@ public class LongestPalindrome {
         if(sentence.equals("")){
             return arrOfLongestPalindrome;
         } else{
-
+            arrOfLongestPalindrome = findLongestPalindromeGivenSentence(arrlistOfWords, arrOfLongestPalindrome);
         }
-
-        arrOfLongestPalindrome = findLongestPalindromeGivenSentence(arrlistOfWords, arrOfLongestPalindrome);
-        System.out.println(arrOfLongestPalindrome.equals(new ArrayList<>()));
         return arrOfLongestPalindrome;
     }
 
